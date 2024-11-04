@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <button class="get-students-btn">Отримати студентів</button>
+        <ul class="student-list"></ul>
+        <form class="form">
+            <label>Ім'я: <input name="name" type="text" required></label>
+            <label>Вік: <input name="age" type="number" required></label>
+            <label>Курс: <input name="course" type="text" required></label>
+            <label>Навички: <input name="skills" type="text"></label>
+            <label>Email: <input name="email" type="email" required></label>
+            <label>Зараховано: <input name="isEnrolled" type="checkbox"></label>
+            <button type="submit">Додати студента</button>
+        </form>
+      </section>
+    </main>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <!-- <include src="посилання на необхідний файл"></include> -->
+  </body>
+</html>

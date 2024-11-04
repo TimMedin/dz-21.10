@@ -1,0 +1,34 @@
+{
+  "name": "dz-21.10",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://github.com/TimMedin/dz-21.10",
+  "scripts": {
+    "server": "json-server --watch db.json",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /ваш репо/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+посилання на ваш репозиторій.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "json": "^11.0.0",
+    "json-server": "^1.0.0-beta.3",
+    "modern-normalize": "^1.1.0",
+    "server": "^1.0.41"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
